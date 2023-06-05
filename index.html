@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Vida / Conway's Game of Life</title>
+</head>
+<body>
+    <canvas id="gol"></canvas>
+    <div class="buttonsContainer">
+        <button id="start">Start</button>
+        <button id="clear">Clear</button>
+        <button id="random">Random</button>
+    </div><!--buttonsContainer-->
+    <div class="settingsContainer">
+        <div class="settings">
+            <label for="speed">Speed</label>
+            <input type="range" id="size" min="10" max="100" value="40">
+        </div><!--settings -->
+    </div><!--settingContainer-->
+
+    <div class="footer">
+        <a href="https://github.com/froginha/game-of-life" target="_blank">
+        <img src="icons8-github-24.png" alt="Github">
+        @Froginha/game-of-life
+    </a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
